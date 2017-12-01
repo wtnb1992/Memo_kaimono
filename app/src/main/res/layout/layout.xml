@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/eTxtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_title"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dip"
+        android:inputType="text" />
+
+    <!--@string/hint_title→strings.xmlにて命名-->
+
+    <EditText
+        android:id="@+id/eTxtContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_content"
+        android:textSize="15sp"
+        android:gravity="top|left"
+        tools:ignore="RtlHardcoded" />
+
+
+</LinearLayout>

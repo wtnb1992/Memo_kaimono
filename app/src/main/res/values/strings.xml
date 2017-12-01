@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">買い物リスト</string>
+    <string name="hint_title">タイトル</string>
+    <string name="hint_content">内容</string>
+    <string name="editactivity_title">編集</string>
+    <string name="button_title">+</string>
+
+    <string name="msg_destruction">メモを破棄しました。</string>
+
+
+</resources>
